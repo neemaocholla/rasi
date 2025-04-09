@@ -1,0 +1,464 @@
+@font-face {
+    font-family: poppins;
+    src: url(fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: poppinsbold;
+    src: url(fonts/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family:hoss narrow ;
+    src: url(fonts/fonts/fonnts.com-Hoss_Round_XNarrow_Medium.otf);
+}
+@font-face {
+    font-family: poppinsmedium;
+    src: url(fonts/fonts/fonnts.com-Poppins-Medium.ttf);
+}
+
+.heading p{ 
+    background-color:rgb(83, 201, 83);;
+    color: white;
+    text-align: center;
+    font-family: poppins;
+    width: 99%;
+    height: 5%;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 19px;
+}
+.heading h1{
+    color: white;
+    font-family: poppins;
+    width: 99%;
+    height: 5%;
+    position: absolute;
+    top: 7%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    color: white;
+
+}
+#catalogue{
+    display:flex;
+    position: absolute;
+    gap: 20%;
+    top: 11%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: poppins;
+}
+
+#catalogue li{
+    list-style: none;
+    display: inline;   
+} 
+a{
+  text-decoration: none;
+  color: white;
+}
+.fa-phone-volume{
+    position: absolute;
+    top: 10%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 28px;
+}
+#pilows{
+      width: 100%;
+      filter: brightness(70%);
+}
+.text_elevate{
+    position: absolute;
+      top: 50%;
+      left: 45%;
+      transform: translate(-50%, -50%);
+      color: white;
+}
+.text_elevate h1{
+    font-family: poppinsmedium;
+    font-size: 60px;
+}
+.text_elevate p{
+    font-family: poppins;
+    font-size: 22px;
+}
+.contact{
+    position: absolute;
+    font-family:hoss narrow ;
+    font-size: 20px;
+    width: 30%;
+    border-radius: 10%;
+    border: none;
+    height: 20%;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(227, 211, 211, 0.855);
+}
+.india{
+    text-align: center;
+    font-family: poppins;
+    color: grey;
+    font-weight:lighter ;
+}
+.timeless{
+    display: flex;
+    font-family: poppins;
+    margin-top: 7%;
+    margin-left: 8%;
+}
+#timeless{
+    width: 70%;
+    border-radius: 10%;
+    box-shadow: 10px 10px 5px rgb(134, 135, 135);
+   
+}
+#rs_printing{
+    color:rgb(83, 201, 83);
+
+}
+.timeless p{
+    color: grey;
+}
+.knowcont{
+    display: flex;
+    gap: 10%;
+    width:100% ;
+    padding: 10px;
+    height: 15%;
+    border: none;
+    font-size: 22px;
+}
+.know{
+  background-color: rgb(83, 201, 83);
+  color: white;
+  font-family: poppins;
+  border: none;
+  font-size: 19px;
+  border-radius: 25px;
+  padding: 20px;
+
+
+}
+.contus{
+    font-family: poppins;
+    font-size: 19px;
+    border-radius: 25px;
+    padding: 20px;
+    
+}
+.fa-arrow-up{
+    rotate: 45deg;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+.services_offered{
+    background-color: rgb(212, 246, 235);
+    display: flex;
+    font-size: 13px;
+    font-family: poppins;
+    justify-content: space-between;
+}
+.quality{
+    display: flex;
+    width: 10%;
+}
+.warranty{
+    display: flex;
+    width: 10%;
+}
+.shipping{
+    display: flex;
+    width: 10%;
+}
+.sustainable{
+    display: flex;
+    
+}
+.array{
+    text-align: center;
+    font-family: poppins;
+    margin-top: 7%;
+}
+.array p{
+    color: rgb(148, 135, 135);
+}
+.techniques{
+    font-family: poppins;
+    font-size:12px;
+    display: flex;
+    gap: 2%;
+    margin-top: 9%;
+}
+.techniques h1{
+    font-size: 22px;
+}
+.techniques p{
+    color: rgb(134, 135, 135);
+}
+.description{
+    display: flex;
+    gap: 4%;
+}
+.tradtext{
+    margin-left: 5%;
+    width: 90%;
+}
+#dyepaint{
+    width: 90%;
+    height: 85%;
+    border-radius: 12%;
+}
+.arrowtext{
+    border-radius: 50%;
+    margin-top: 5%;
+    padding: 3%;
+    width: 10%;
+    font-size: 22px;
+    height: 30%;
+    border: none;
+    background-color: rgb(207, 246, 222);
+}
+.advanced{
+    margin-right: 9%;
+    width: 60%;
+}
+#printerr{
+    width: 140%;
+    height: 85%;
+    border-radius: 12%;
+}
+.arrowadv{
+    border-radius: 50%;
+    margin-top: 5%;
+    padding: 3%;
+    width: 10%;
+    font-size: 22px;
+    height: 30%;
+    border: none;
+    background-color: rgb(207, 246, 222);
+}
+.fourcolor{
+    width: 90%;
+}
+#screenprint{
+    width: 90%;
+    height: 85%;
+    border-radius: 12%;
+}
+.arrowcolor{
+    border-radius: 50%;
+    padding: 3%;
+    width: 20%;
+    font-size: 22px;
+    height: 20%;
+    border: none;
+    background-color: rgb(207, 246, 222);
+}
+.praise{
+    text-align: center;
+    font-family: poppins;
+    margin-top: 15%;
+    font-size: 25px;
+}
+.praise p{
+    color: rgb(148, 135, 135);
+    font-size: 20px;
+}
+.clients{
+    display: flex;
+    gap: 10%;
+    font-family: poppins;
+    font-size: 10px;
+    margin-top: 4%;
+    margin-left: 10%;
+}
+.aditya{
+    border: none;
+    background-color: rgb(234, 242, 237);
+    width: 25%;
+    height: 30%;
+    display: flex;
+    border-radius: 4%;
+    box-shadow: 10px 10px 5px rgb(134, 135, 135);
+
+}
+#aditya{
+    width: 18%;
+    margin-left: 1%;
+    border-radius: 10%;
+    gap: 10%;
+}
+.arvind{
+    border: none;
+    background-color: rgb(234, 242, 237);
+    width: 25%;
+    height: 30%;
+    display: flex;
+    gap: 10%;
+    border-radius: 4%;
+}
+#arvind{
+    width: 18%;
+    height: 20%;
+    margin-left: 1%;
+    margin-top: 1%;
+    border-radius: 10%;
+}
+.raymond{
+    border: none;
+    background-color: rgb(234, 242, 237);
+    width: 25%;
+    height: 30%;
+    display: flex;
+    gap: 10%;
+    border-radius: 4%;
+}
+#raymond{
+    width: 18%;
+    height: 20%;
+    margin-left: 1%;
+    margin-top: 1%;
+    border-radius: 10%;
+}
+.time{
+    display: flex;
+    gap: 5%;
+    font-family: poppins;
+    margin-top:6%;
+    margin-left: 10%;
+}
+.time p{
+    color: rgb(134, 135, 135);
+}
+.time h1{
+    font-family: poppinsmedium;
+    font-size: 25px;
+}
+.manju{
+    color: rgb(134, 135, 135);
+    font-style: italic;
+}
+.star{
+    color: rgb(83, 201, 83);
+}
+.time_right{
+    width: 30%;
+}
+#sagepillow{
+    width: 130%;
+    height: 90%;
+    border-radius:7% ;
+    margin-top: 5%;
+}
+#arstore{
+    width: 10%; 
+}
+#gap{
+    width: 10%;
+}
+#myntra{
+    width: 10%;
+}
+#puma{
+    width: 10%;
+}
+#birla{
+    width: 10%;
+}
+#converse{
+    width: 10%;
+}
+#markalar{
+    width: 10%;
+}
+.showcasing{
+    text-align: center;
+    font-family: poppins;
+    margin-top: 15%;
+    font-size: 25px;
+}
+.showcasing p{
+    color: rgb(148, 135, 135);
+    font-size: 20px;
+}
+.showcase{
+    display: flex;
+    gap: 2%;
+    margin-left: 5%;
+    margin-bottom: 1%;
+}
+#clothes{
+    width: 25%;
+    border-radius: 2%;
+}
+#bluep{
+    width: 20%;
+    height: 40%;
+    border-radius: 2%;
+}
+#dress{
+    width: 20%;
+    border-radius: 2%;
+}
+#folding{
+    border-radius: 2%;
+    width: 100%;
+}
+.reach{
+    text-align: center;
+    font-family: poppins;
+    margin-top: 15%;
+    font-size: 25px;
+
+}
+.reach p{
+    color: rgb(148, 135, 135);
+    font-size: 20px;
+}
+#map{
+    width: 100%;
+    height: 40%;
+    margin-top: 6%;
+}
+.card{
+    border: none;
+    border-radius: 6%;
+    font-family:hoss narrow;
+    width: 28%;
+    font-size: 18px;
+    padding: 10px;
+    position: absolute;
+    z-index:1;
+    top: 930%;
+    left: 10%;
+    background-color: white;
+    box-shadow: 10px 10px 5px rgb(134, 135, 135);
+
+}
+.card h1{
+    font-family: poppins;
+}
+.card p{
+    color: rgb(134, 135, 135);
+}
+.number{
+    display:flex;
+    gap: 10%;
+}
+.address{
+    display:flex;
+    gap: 10%;
+}
+.opening{
+    display:flex;
+    gap: 10%;
+}
+.fa-phone{
+    
+}
