@@ -44,9 +44,9 @@
 #catalogue{
     display:flex;
     position: absolute;
-    gap: 10%;
-    top: 1%;
-    left: 35%;
+    gap: 18%;
+    top: 0.8%;
+    left: 45%;
     transform: translate(-50%, -50%);
     color: white;
     font-family: poppins;
@@ -160,12 +160,12 @@ a{
 .services_offered{
     background-color: rgb(229, 245, 240);
     display: flex;
-    width: 90%;
-    font-size: 13px;
-    margin-left: 3%;
-    padding: 1%;
+    width: 80%;
+    font-size: 10px;
+    margin-left: 5%;
+    padding: 2%;
     font-family: poppins;
-    gap: 5%;
+    gap: 10%;
     margin-top: 5%;
 }
 .quality{
@@ -176,6 +176,9 @@ a{
 }
 .shipping{
     display: flex;
+}
+.fa-hands-holding-circle{
+    font-size: 180%;
 }
 .sustainable{
     display: flex;
@@ -446,10 +449,10 @@ a{
 .card{
     border: none;
     border-radius: 6%;
-    font-family:hoss narrow;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 28%;
-    font-size: 18px;
-    padding: 10px;
+    font-size: 16px;
+    padding: 12px;
     position: absolute;
     z-index:1;
     top: 88%;
@@ -460,6 +463,7 @@ a{
 }
 .card h1{
     font-family: poppins;
+    margin-left: 4%;
 }
 .card p{
     color: rgb(134, 135, 135);
@@ -496,11 +500,14 @@ a{
     font-size: 10px;
     color: gray;
 }
+.foot h5{
+    font-family: 'Times New Roman', Times, serif;
+}
 #rasilogo{
     width: 12%;
     height:10% ;
     margin-left: 5%;
-    margin-top: 1%;
+    margin-top: 2%;
     border-radius: 10%;
 }
 #copyright{
@@ -518,6 +525,7 @@ a{
 body {
     margin: 0;
     width: 100%;
+    font-family: poppins;
     padding: 0;
     position: relative;
     height: 100%; 
@@ -528,6 +536,7 @@ body {
         margin: 0;
         width: 100%;
         padding: 0;
+        font-family: poppins;
         position: relative;
         height: 100%; 
     }
@@ -538,6 +547,7 @@ body {
         margin: 0;
         width: 100%;
         padding: 0;
+        font-family: poppins;
         position: relative;
         height: 100%; 
     }
@@ -547,6 +557,7 @@ body {
         margin: 0;
         width: 100%;
         padding: 0;
+        font-family: poppins;
         position: relative;
         height: 100%; 
     }
@@ -556,6 +567,7 @@ body {
         margin: 0;
         width: 100%;
         padding: 0;
+        font-family: poppins;
         position: relative;
         height: 100%; 
     }
