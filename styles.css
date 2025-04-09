@@ -193,7 +193,7 @@ a{
 }
 .techniques{
     font-family: poppins;
-    font-size:12px;
+    font-size:14px;
     display: flex;
     gap: 2%;
     margin-top: 9%;
@@ -206,14 +206,14 @@ a{
 }
 .description{
     display: flex;
-    gap: 4%;
+    gap: 10%;
 }
 .tradtext{
     margin-left: 5%;
     width: 90%;
 }
 #dyepaint{
-    width: 90%;
+    width: 95%;
     height: 85%;
     border-radius: 12%;
 }
@@ -267,18 +267,18 @@ a{
     text-align: center;
     font-family: poppins;
     margin-top: 15%;
-    font-size: 25px;
+    font-size: 20px;
 }
 .praise p{
     color: rgb(148, 135, 135);
-    font-size: 20px;
+    font-size: 16px;
 }
 .clients{
     display: flex;
     gap: 10%;
     font-family: poppins;
     font-size: 10px;
-    margin-top: 4%;
+    margin-top: 3%;
     margin-left: 10%;
 }
 .aditya{
@@ -401,17 +401,18 @@ a{
 .showcasing{
     text-align: center;
     font-family: poppins;
-    margin-top: 15%;
-    font-size: 25px;
+    margin-top: 7%;
+    font-size: 20px;
 }
 .showcasing p{
     color: rgb(148, 135, 135);
-    font-size: 20px;
+    font-size: 16px;
 }
 .showcase{
     display: flex;
     gap: 2%;
     margin-left: 10%;
+    margin-top: 2%;
     margin-bottom: 1%;
 }
 #clothes{
@@ -419,7 +420,7 @@ a{
     border-radius: 2%;
 }
 #bluep{
-    width: 30%;
+    width: 32%;
     border-radius: 2%;
 }
 #dress{
@@ -428,18 +429,19 @@ a{
 }
 #folding{
     border-radius: 2%;
-    width: 100%;
+    width: 85%;
+    margin-left: 9%;
 }
 .reach{
     text-align: center;
     font-family: poppins;
-    margin-top: 15%;
-    font-size: 25px;
+    margin-top: 8%;
+    font-size: 20px;
 
 }
 .reach p{
     color: rgb(148, 135, 135);
-    font-size: 20px;
+    font-size: 16px;
 }
 #map{
     width: 100%;
@@ -450,9 +452,9 @@ a{
     border: none;
     border-radius: 6%;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    width: 28%;
+    width: 25%;
     font-size: 16px;
-    padding: 12px;
+    padding: 15px;
     position: absolute;
     z-index:1;
     top: 88%;
@@ -479,9 +481,6 @@ a{
 .opening{
     display:flex;
     gap: 10%;
-}
-.fa-phone{
-    
 }
 .rasifoot{
     background-color: rgb(43, 55, 46);
